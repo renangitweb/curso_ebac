@@ -4,8 +4,9 @@ const itemB = document.getElementById('campoB');
 formEvalido = false;
 
 function ComparaNumero(numB, numA){
-    
-    return numB >= numA;
+    var B = parseFloat(numB);
+    var A = parseFloat(numA);
+    return B >= A;
 }
 
 form.addEventListener('submit', function(e){
